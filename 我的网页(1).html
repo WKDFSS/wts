@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>示例网页</title>
+    <style>
+      /* 图片展示样式 */
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .gallery img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin: 10px;
+      }
+      
+      /* 段落样式 */
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      
+      /* 标题样式 */
+      h1 {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      
+      /* 导航栏样式 */
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #333;
+        height: 60px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 10px;
+      }
+      nav a:hover {
+        background-color: white;
+        color: #333;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#gallery">小红书文章AI编写</a>
+      <a href="#paragraphs">段落</a>
+      <a href="#heading">标题</a>
+    </nav>
+    
+    <div id="gallery">
+      <h1>小红书文章AI编写</h1>
+      <div class="gallery">
+        <a href="https://gpt.xcthrone.top/pages/home/home?title=%E5%B0%8F%E7%BA%A2%E4%B9%A6%20%F0%9F%94%A5&index=0">
+          <img src="img/pic1.jpg" alt="小红书文章AI编写">
+        </a>
+      </div>
+    </div>
+    
+    <div id="paragraphs">
+      <h1>段落展示</h1>
+      <p>这是第一个段落的内容。</p>
+      <p>这是第二个段落的内容。</p>
+      <p>这是第三个段落的内容。</p>
+    </div>
+    
+    <div id="heading">
+      <h1>标题展示</h1>
+      <h2>二级标题1</h2>
+      <p>这是二级标题1的内容。</p>
+      <h2>二级标题2</h2>
+      <p>这是二级标题2的内容。</p>
+      <h2>二级标题3</h2>
+      <p>这是二级标题3的内容。</p>
+    </div>
+  </body>
+</html>
